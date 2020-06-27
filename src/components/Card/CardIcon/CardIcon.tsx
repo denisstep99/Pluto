@@ -11,3 +11,12 @@ interface ICardIconProps {
 }
 
 const cnCardIcon = cn("CardIcon");
+
+export default function CardIcon({
+  img,
+  className,
+  color,
+  size,
+}: ICardIconProps) {
+  return <div className={cnCardIcon(null, [className])} />;
+}
