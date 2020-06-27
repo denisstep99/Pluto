@@ -1,0 +1,24 @@
+.Tag {
+  background-color: #569363;
+  color: #ffffff;
+  font-size: 14px;
+  display: inline-block;
+
+  border-radius: 4px;
+}
+
+.Tag_size_l {
+  padding: 6px 14px;
+}
+
+.Tag_size_m {
+  padding: 4px 10px;
+}
+
+.Tag_size_s {
+  padding: 2px 8px;
+}
+
+.Tag_type_button {
+  cursor: pointer;
+}
