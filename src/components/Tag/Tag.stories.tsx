@@ -15,16 +15,14 @@ export const tagData = {
   onClick: action("onClick"),
 };
 
-export const l_size = () => <Tag size={"l"} {...tagData} />;
-export const m_size = () => <Tag size={"m"} {...tagData} />;
-export const s_size = () => <Tag size={"s"} {...tagData} />;
+export const lSize = () => <Tag size={"l"} {...tagData} />;
+export const mSize = () => <Tag size={"m"} {...tagData} />;
+export const sSize = () => <Tag size={"s"} {...tagData} />;
 
-export const type_button = () => (
-  <Tag type={"button"} size={"l"} {...tagData} />
-);
-export const type_headline = () => (
+export const typeButton = () => <Tag type={"button"} size={"l"} {...tagData} />;
+export const typeHeadline = () => (
   <Tag type={"headline"} size={"m"} {...tagData} />
 );
-export const type_component = () => (
+export const typeComponent = () => (
   <Tag type={"component"} size={"s"} {...tagData} />
 );
