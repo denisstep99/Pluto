@@ -16,8 +16,8 @@ export const cardData: ICardProps = {
   tags: ["сахар", "соль", "молоко"],
 };
 
-export const withoutDescription = () => <Card {...cardData} />;
-export const withDescription = () => (
+export const WithoutDescription = () => <Card {...cardData} />;
+export const WithDescription = () => (
   <Card
     {...cardData}
     author={"Vladimir Volkov"}

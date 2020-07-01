@@ -51,7 +51,7 @@ export default function Card({
             <div className={cnCard("tags")}>
               {" "}
               {tags.map((text, key) => (
-                <Tag size={"s"} text={text} />
+                <Tag key={key} size={"s"} text={text} />
               ))}{" "}
             </div>
           )}
@@ -62,7 +62,7 @@ export default function Card({
         <div className={cnCard("tags")}>
           {" "}
           {tags.map((text, key) => (
-            <Tag size={"s"} text={text} />
+            <Tag key={key} size={"s"} text={text} />
           ))}{" "}
         </div>
       )}
