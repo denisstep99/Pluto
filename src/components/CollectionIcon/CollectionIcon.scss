@@ -1,6 +1,6 @@
 .CollectionIcon {
-  height: 150px;
-  width: 150px;
+  min-width: 100px;
+  padding-top: 100%;
 
   background-image: url("./icons/cart.png");
   background-size: 40%;
@@ -10,16 +10,21 @@
 
   border-radius: 4px;
 
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
+  position: relative;
 }
 
 .CollectionIcon-description {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+
   padding: 10px;
   font-size: 1.1em;
   text-align: center;
   color: #569363;
+  border-radius: 0 0 4px 4px;
   border-top: 2px solid #569363;
   background-color: #ffffff;
 }

@@ -27,3 +27,15 @@ export const WithDescription = () => (
     }
   />
 );
+
+export const ThemeDark = () => (
+  <Card
+    {...cardData}
+    theme={"dark"}
+    author={"Vladimir Volkov"}
+    description={
+      "Вкусные хлопья с молоком на завтрак. Довольно таки легки в\n" +
+      "приготовлении, очень полезны и питательны. "
+    }
+  />
+);

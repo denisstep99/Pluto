@@ -9,6 +9,7 @@ export interface ICardProps {
   creationDate: string | Date;
   icon: string;
   tags: Array<string>;
+  theme?: "light" | "dark";
 
   className?: string;
   author?: string;
@@ -25,13 +26,14 @@ export default function Card({
   creationDate,
   icon,
   author,
+  theme = "light",
   isFavourite,
   description,
   tags,
   className,
 }: ICardProps) {
   return (
-    <section className={cnCard(null, [className])}>
+    <section className={cnCard({ theme }, [className])}>
       <div className={cnCard("main")}>
         <div className={cnCard("icon")}>
           <CardIcon img={""} />
@@ -51,7 +53,12 @@ export default function Card({
             <div className={cnCard("tags")}>
               {" "}
               {tags.map((text, key) => (
-                <Tag key={key} size={"s"} text={text} />
+                <Tag
+                  theme={theme === "light" ? "dark" : "light"}
+                  key={key}
+                  size={"s"}
+                  text={text}
+                />
               ))}{" "}
             </div>
           )}
@@ -62,7 +69,12 @@ export default function Card({
         <div className={cnCard("tags")}>
           {" "}
           {tags.map((text, key) => (
-            <Tag key={key} size={"s"} text={text} />
+            <Tag
+              theme={theme === "light" ? "dark" : "light"}
+              key={key}
+              size={"s"}
+              text={text}
+            />
           ))}{" "}
         </div>
       )}

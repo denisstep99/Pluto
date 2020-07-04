@@ -5,6 +5,11 @@
   display: inline-block;
 
   border-radius: 4px;
+
+  &_theme_light {
+    background-color: #bfd9cd;
+    color: #569363;
+  }
 }
 
 .Tag_size_l {

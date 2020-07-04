@@ -5,6 +5,7 @@ import "./Tag.scss";
 
 interface ITagProps {
   size: "s" | "m" | "l";
+  theme?: "light" | "dark";
   text: string;
   className?: string;
   type?: "component" | "headline" | "button";
@@ -16,6 +17,7 @@ const cnTag = cn("Tag");
 
 export default function Tag({
   size,
+  theme,
   type,
   text,
   onClick,
@@ -31,7 +33,10 @@ export default function Tag({
   }
 
   return (
-    <Component className={cnTag({ size, type }, [className])} onClick={onClick}>
+    <Component
+      className={cnTag({ size, type, theme }, [className])}
+      onClick={onClick}
+    >
       {text}
     </Component>
   );

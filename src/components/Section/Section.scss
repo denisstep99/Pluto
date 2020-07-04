@@ -1,0 +1,25 @@
+.Section {
+  padding: 14px;
+
+  &-mainContent {
+    padding-top: 14px;
+  }
+}
+
+.Section_theme_light {
+  background-color: #bfd9cd;
+
+  .Section-headline {
+    color: white;
+    background-color: #569363;
+  }
+}
+
+.Section_theme_dark {
+  background-color: #569363;
+
+  .Section-headline {
+    color: #569363;
+    background-color: #bfd9cd;
+  }
+}
