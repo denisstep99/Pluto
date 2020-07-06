@@ -45,6 +45,688 @@ exports[`Storyshots Button Text 1`] = `
 </button>
 `;
 
+exports[`Storyshots Card Theme Dark 1`] = `
+<section
+  className="Card Card_theme_dark"
+>
+  <div
+    className="Card-main"
+  >
+    <div
+      className="Card-icon"
+    >
+      <div
+        className="CardIcon"
+      />
+    </div>
+    <div
+      className="Card-content"
+    >
+      <div
+        className="Card-header"
+      >
+        <h1>
+          Хлопья с молоком
+        </h1>
+        <time>
+          вчера, 19.00
+        </time>
+      </div>
+      <div
+        className="Card-description"
+      >
+        <p>
+          Vladimir Volkov
+        </p>
+        <p>
+          Вкусные хлопья с молоком на завтрак. Довольно таки легки в
+приготовлении, очень полезны и питательны. 
+        </p>
+      </div>
+    </div>
+  </div>
+  <div
+    className="Card-tags"
+  >
+     
+    <span
+      className="Tag Tag_size_s Tag_theme_light"
+    >
+      сахар
+    </span>
+    <span
+      className="Tag Tag_size_s Tag_theme_light"
+    >
+      соль
+    </span>
+    <span
+      className="Tag Tag_size_s Tag_theme_light"
+    >
+      молоко
+    </span>
+     
+  </div>
+</section>
+`;
+
+exports[`Storyshots Card With Body 1`] = `
+<section
+  className="Card Card_theme_light"
+>
+  <div
+    className="Card-main"
+  >
+    <div
+      className="Card-icon"
+    >
+      <div
+        className="CardIcon"
+      />
+    </div>
+    <div
+      className="Card-content"
+    >
+      <div
+        className="Card-header"
+      >
+        <h1>
+          Хлопья с молоком
+        </h1>
+        <time>
+          вчера, 19.00
+        </time>
+      </div>
+      <div
+        className="Card-description"
+      >
+        <p />
+        <p />
+        <ul
+          style={
+            Object {
+              "listStyle": "none",
+            }
+          }
+        >
+          <h3>
+            состав: 
+          </h3>
+          <li>
+            морковь 12гр
+          </li>
+          <li>
+            морковь 12гр
+          </li>
+          <li>
+            морковь 12гр
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div
+    className="Card-tags"
+  >
+     
+    <span
+      className="Tag Tag_size_s Tag_theme_dark"
+    >
+      сахар
+    </span>
+    <span
+      className="Tag Tag_size_s Tag_theme_dark"
+    >
+      соль
+    </span>
+    <span
+      className="Tag Tag_size_s Tag_theme_dark"
+    >
+      молоко
+    </span>
+     
+  </div>
+</section>
+`;
+
+exports[`Storyshots Card With Description 1`] = `
+<section
+  className="Card Card_theme_light"
+>
+  <div
+    className="Card-main"
+  >
+    <div
+      className="Card-icon"
+    >
+      <div
+        className="CardIcon"
+      />
+    </div>
+    <div
+      className="Card-content"
+    >
+      <div
+        className="Card-header"
+      >
+        <h1>
+          Хлопья с молоком
+        </h1>
+        <time>
+          вчера, 19.00
+        </time>
+      </div>
+      <div
+        className="Card-description"
+      >
+        <p>
+          Vladimir Volkov
+        </p>
+        <p>
+          Вкусные хлопья с молоком на завтрак. Довольно таки легки в
+приготовлении, очень полезны и питательны. 
+        </p>
+      </div>
+    </div>
+  </div>
+  <div
+    className="Card-tags"
+  >
+     
+    <span
+      className="Tag Tag_size_s Tag_theme_dark"
+    >
+      сахар
+    </span>
+    <span
+      className="Tag Tag_size_s Tag_theme_dark"
+    >
+      соль
+    </span>
+    <span
+      className="Tag Tag_size_s Tag_theme_dark"
+    >
+      молоко
+    </span>
+     
+  </div>
+</section>
+`;
+
+exports[`Storyshots Card Without Description 1`] = `
+<section
+  className="Card Card_theme_light"
+>
+  <div
+    className="Card-main"
+  >
+    <div
+      className="Card-icon"
+    >
+      <div
+        className="CardIcon"
+      />
+    </div>
+    <div
+      className="Card-content"
+    >
+      <div
+        className="Card-header"
+      >
+        <h1>
+          Хлопья с молоком
+        </h1>
+        <time>
+          вчера, 19.00
+        </time>
+      </div>
+      <div
+        className="Card-tags"
+      >
+         
+        <span
+          className="Tag Tag_size_s Tag_theme_dark"
+        >
+          сахар
+        </span>
+        <span
+          className="Tag Tag_size_s Tag_theme_dark"
+        >
+          соль
+        </span>
+        <span
+          className="Tag Tag_size_s Tag_theme_dark"
+        >
+          молоко
+        </span>
+         
+      </div>
+    </div>
+  </div>
+</section>
+`;
+
+exports[`Storyshots CardIcon Card Icon 1`] = `
+<div
+  className="CardIcon"
+/>
+`;
+
+exports[`Storyshots CollectionIcon Default Collection Icon 1`] = `
+<div
+  className="CollectionIcon"
+>
+  <div
+    className="CollectionIcon-description"
+  >
+    cахар
+  </div>
+</div>
+`;
+
+exports[`Storyshots Section Theme Dark 1`] = `
+<div
+  style={
+    Object {
+      "margin": "0 auto",
+      "width": "410px",
+    }
+  }
+>
+  <div
+    className="Section Section_theme_dark Section_footer_arrow"
+  >
+    <h2
+      className="Tag Tag_size_m Tag_type_headline Section-headline"
+    >
+      just a headline
+    </h2>
+    <div
+      className="Section-mainContent"
+    >
+      <section
+        className="Card Card_theme_light"
+      >
+        <div
+          className="Card-main"
+        >
+          <div
+            className="Card-icon"
+          >
+            <div
+              className="CardIcon"
+            />
+          </div>
+          <div
+            className="Card-content"
+          >
+            <div
+              className="Card-header"
+            >
+              <h1>
+                Хлопья с молоком
+              </h1>
+              <time>
+                вчера, 19.00
+              </time>
+            </div>
+            <div
+              className="Card-description"
+            >
+              <p />
+              <p>
+                Вкусные хлопья с молоком на завтрак. Довольно таки легки в
+приготовлении, очень полезны и питательны. 
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          className="Card-tags"
+        >
+           
+          <span
+            className="Tag Tag_size_s Tag_theme_dark"
+          >
+            сахар
+          </span>
+          <span
+            className="Tag Tag_size_s Tag_theme_dark"
+          >
+            соль
+          </span>
+          <span
+            className="Tag Tag_size_s Tag_theme_dark"
+          >
+            молоко
+          </span>
+           
+        </div>
+      </section>
+      <section
+        className="Card Card_theme_light"
+      >
+        <div
+          className="Card-main"
+        >
+          <div
+            className="Card-icon"
+          >
+            <div
+              className="CardIcon"
+            />
+          </div>
+          <div
+            className="Card-content"
+          >
+            <div
+              className="Card-header"
+            >
+              <h1>
+                Хлопья с молоком
+              </h1>
+              <time>
+                вчера, 19.00
+              </time>
+            </div>
+            <div
+              className="Card-description"
+            >
+              <p />
+              <p>
+                Вкусные хлопья с молоком на завтрак. Довольно таки легки в
+приготовлении, очень полезны и питательны. 
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          className="Card-tags"
+        >
+           
+          <span
+            className="Tag Tag_size_s Tag_theme_dark"
+          >
+            сахар
+          </span>
+          <span
+            className="Tag Tag_size_s Tag_theme_dark"
+          >
+            соль
+          </span>
+          <span
+            className="Tag Tag_size_s Tag_theme_dark"
+          >
+            молоко
+          </span>
+           
+        </div>
+      </section>
+      <section
+        className="Card Card_theme_light"
+      >
+        <div
+          className="Card-main"
+        >
+          <div
+            className="Card-icon"
+          >
+            <div
+              className="CardIcon"
+            />
+          </div>
+          <div
+            className="Card-content"
+          >
+            <div
+              className="Card-header"
+            >
+              <h1>
+                Хлопья с молоком
+              </h1>
+              <time>
+                вчера, 19.00
+              </time>
+            </div>
+            <div
+              className="Card-description"
+            >
+              <p />
+              <p>
+                Вкусные хлопья с молоком на завтрак. Довольно таки легки в
+приготовлении, очень полезны и питательны. 
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          className="Card-tags"
+        >
+           
+          <span
+            className="Tag Tag_size_s Tag_theme_dark"
+          >
+            сахар
+          </span>
+          <span
+            className="Tag Tag_size_s Tag_theme_dark"
+          >
+            соль
+          </span>
+          <span
+            className="Tag Tag_size_s Tag_theme_dark"
+          >
+            молоко
+          </span>
+           
+        </div>
+      </section>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Section Theme Light 1`] = `
+<div
+  style={
+    Object {
+      "margin": "0 auto",
+      "width": "410px",
+    }
+  }
+>
+  <div
+    className="Section Section_theme_light Section_footer_arrow"
+  >
+    <h2
+      className="Tag Tag_size_m Tag_type_headline Section-headline"
+    >
+      just a headline
+    </h2>
+    <div
+      className="Section-mainContent"
+    >
+      <section
+        className="Card Card_theme_light"
+      >
+        <div
+          className="Card-main"
+        >
+          <div
+            className="Card-icon"
+          >
+            <div
+              className="CardIcon"
+            />
+          </div>
+          <div
+            className="Card-content"
+          >
+            <div
+              className="Card-header"
+            >
+              <h1>
+                Хлопья с молоком
+              </h1>
+              <time>
+                вчера, 19.00
+              </time>
+            </div>
+            <div
+              className="Card-description"
+            >
+              <p />
+              <p>
+                Вкусные хлопья с молоком на завтрак. Довольно таки легки в
+приготовлении, очень полезны и питательны. 
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          className="Card-tags"
+        >
+           
+          <span
+            className="Tag Tag_size_s Tag_theme_dark"
+          >
+            сахар
+          </span>
+          <span
+            className="Tag Tag_size_s Tag_theme_dark"
+          >
+            соль
+          </span>
+          <span
+            className="Tag Tag_size_s Tag_theme_dark"
+          >
+            молоко
+          </span>
+           
+        </div>
+      </section>
+      <section
+        className="Card Card_theme_light"
+      >
+        <div
+          className="Card-main"
+        >
+          <div
+            className="Card-icon"
+          >
+            <div
+              className="CardIcon"
+            />
+          </div>
+          <div
+            className="Card-content"
+          >
+            <div
+              className="Card-header"
+            >
+              <h1>
+                Хлопья с молоком
+              </h1>
+              <time>
+                вчера, 19.00
+              </time>
+            </div>
+            <div
+              className="Card-description"
+            >
+              <p />
+              <p>
+                Вкусные хлопья с молоком на завтрак. Довольно таки легки в
+приготовлении, очень полезны и питательны. 
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          className="Card-tags"
+        >
+           
+          <span
+            className="Tag Tag_size_s Tag_theme_dark"
+          >
+            сахар
+          </span>
+          <span
+            className="Tag Tag_size_s Tag_theme_dark"
+          >
+            соль
+          </span>
+          <span
+            className="Tag Tag_size_s Tag_theme_dark"
+          >
+            молоко
+          </span>
+           
+        </div>
+      </section>
+      <section
+        className="Card Card_theme_dark"
+      >
+        <div
+          className="Card-main"
+        >
+          <div
+            className="Card-icon"
+          >
+            <div
+              className="CardIcon"
+            />
+          </div>
+          <div
+            className="Card-content"
+          >
+            <div
+              className="Card-header"
+            >
+              <h1>
+                Хлопья с молоком
+              </h1>
+              <time>
+                вчера, 19.00
+              </time>
+            </div>
+            <div
+              className="Card-description"
+            >
+              <p />
+              <p>
+                Вкусные хлопья с молоком на завтрак. Довольно таки легки в
+приготовлении, очень полезны и питательны. 
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          className="Card-tags"
+        >
+           
+          <span
+            className="Tag Tag_size_s Tag_theme_light"
+          >
+            сахар
+          </span>
+          <span
+            className="Tag Tag_size_s Tag_theme_light"
+          >
+            соль
+          </span>
+          <span
+            className="Tag Tag_size_s Tag_theme_light"
+          >
+            молоко
+          </span>
+           
+        </div>
+      </section>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Storyshots Tag L Size 1`] = `
 <span
   className="Tag Tag_size_l"

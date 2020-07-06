@@ -4,22 +4,37 @@ import "./Card.scss";
 import CardIcon from "./CardIcon/CardIcon";
 import Tag from "../Tag/Tag";
 
+type TTheme = "light" | "dark";
+
 export interface ICardProps {
   headline: string;
   creationDate: string | Date;
   icon: string;
   tags: Array<string>;
-  theme?: "light" | "dark";
+  theme?: TTheme;
 
   className?: string;
   author?: string;
   isFavourite?: boolean;
   description?: string;
+  children?: React.ReactElement;
 }
 
 const cnCard = cn("Card");
 
-// todo компонент вынести tags
+const TagsSection = (tags: Array<string>, theme: TTheme) => (
+  <div className={cnCard("tags")}>
+    {" "}
+    {tags.map((text, key) => (
+      <Tag
+        theme={theme === "light" ? "dark" : "light"}
+        key={key}
+        size={"s"}
+        text={text}
+      />
+    ))}{" "}
+  </div>
+);
 
 export default function Card({
   headline,
@@ -29,6 +44,7 @@ export default function Card({
   theme = "light",
   isFavourite,
   description,
+  children,
   tags,
   className,
 }: ICardProps) {
@@ -43,41 +59,18 @@ export default function Card({
             <h1>{headline}</h1>
             <time>{creationDate}</time>
           </div>
-          {(author || description) && (
+          {(author || description || children) && (
             <div className={cnCard("description")}>
               <p>{author}</p>
               <p>{description}</p>
+              {children}
             </div>
           )}
-          {!(author || description) && (
-            <div className={cnCard("tags")}>
-              {" "}
-              {tags.map((text, key) => (
-                <Tag
-                  theme={theme === "light" ? "dark" : "light"}
-                  key={key}
-                  size={"s"}
-                  text={text}
-                />
-              ))}{" "}
-            </div>
-          )}
+          {!(author || description || children) && TagsSection(tags, theme)}
         </div>
       </div>
 
-      {(author || description) && (
-        <div className={cnCard("tags")}>
-          {" "}
-          {tags.map((text, key) => (
-            <Tag
-              theme={theme === "light" ? "dark" : "light"}
-              key={key}
-              size={"s"}
-              text={text}
-            />
-          ))}{" "}
-        </div>
-      )}
+      {(author || description || children) && TagsSection(tags, theme)}
     </section>
   );
 }

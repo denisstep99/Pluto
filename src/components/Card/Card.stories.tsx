@@ -39,3 +39,14 @@ export const ThemeDark = () => (
     }
   />
 );
+
+export const WithBody = () => (
+  <Card {...cardData}>
+    <ul style={{ listStyle: "none" }}>
+      <h3>состав: </h3>
+      <li>морковь 12гр</li>
+      <li>морковь 12гр</li>
+      <li>морковь 12гр</li>
+    </ul>
+  </Card>
+);
